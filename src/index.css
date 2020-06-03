@@ -1,5 +1,12 @@
 body {
   margin: 0;
- 
+  background-color: black;
+  color: white
 }
-
+.cuadrante, .dosPuntos{
+  width: 80px;
+  
+  font-size: 45px;
+  font-weight: bold;
+  text-align: center;
+}
