@@ -1,40 +1,39 @@
 import React from 'react';
-import Counter from './counter'
 
-export function Main(){
-    return(
-       <div class="container">
-           <div class="row d-flex justify-content-center">
+export function Main(props) {
+    return (
+        <div class="container">
+            <div class="row d-flex justify-content-center">
                 <div class="cuadrante">
                     <i class="fas fa-clock"></i>
                 </div>
                 <div class="cuadrante">
-                    0
+                    {props.num6}
                 </div>
                 <div class="cuadrante">
-                    0
+                    {props.num5}
                 </div>
                 <div class="dosPuntos">
                     :
                 </div>
                 <div class="cuadrante">
-                    0
+                    {props.num4}
                 </div>
                 <div class="cuadrante">
-                    0
+                    {props.num3}
                 </div>
                 <div class="dosPuntos">
                     :
                 </div>
                 <div class="cuadrante">
-                    0
+                    {props.num2}
                 </div>
                 <div class="cuadrante">
-                    0
+                    {props.num1}
                 </div>
-                
-           </div>
-       </div>
-        
+
+            </div>
+        </div>
+
     )
 } 
